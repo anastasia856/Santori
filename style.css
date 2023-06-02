@@ -292,5 +292,40 @@ header {
 
 
 /*       Part-4       */
+.part-4 {
+  width: 100%;
+  background-image: url(img/part-4_fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  margin-top: 40px;
+}
 
+.audience {
+  padding-top: 335px;
+  background-image: url(/img/part-4_img.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+
+.audience__title {
+  font-size: 60px;
+  /* font-family: "STIX Two Text"; */
+  font-style: italic;
+  font-weight: lighter;
+  line-height: 1.2;
+  color: #3333cc;
+/* padding-bottom: 20px; */
+}
+
+.audience__list {
+  font-size: 24px;
+  font-family: "Roboto";
+  color: rgb(51, 51, 51);
+  line-height: 1.5;
+  font-weight: 200;
+
+  padding: 21px 0;
+}
 
