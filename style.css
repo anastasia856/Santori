@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+/*                            HEADER                                   */
+header {
+  width: 100%;
+  background-image: url("./img/futer_fon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  padding-top: 92px;
+}
+
+.header {
+  padding-left: 200px;
+}
+
+.header_text h1 {
+  margin-top: 160px;
+  color: #3333cc;
+  font-family: STIX Two Text;
+  font-size: 63px;
+}
+
+.header_text p {
+  margin-top: 40px;
+  font-family: roboto;
+  font-size: 24px;
+}
+
+.header__link {
+  border: 0;
+  line-height: 2.5;
+  padding: 20px 60px;
+  font-family: STIX Two Text;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  background: linear-gradient(left top, #9933cc, #3333cc);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#9933cc), to(#3333cc));
+  background: -webkit-linear-gradient(left top, #9933cc, #3333cc);
+  background: -moz-linear-gradient(left top, #9933cc, #3333cc);
+  background: -o-linear-gradient(left top, #9933cc, #3333cc);
+  background: -ms-linear-gradient(left top, #9933cc, #3333cc);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#9933cc', endColorstr='#3333cc', GradientType=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#9933cc',endColorstr='#3333cc')";
+}
+
+.header_btn {
+  margin-top: 55px;
+}
+
+.falh {
+  padding-bottom: 135px;
+}
+
+/*                        MAIN                      */
+/*                       Part-1                     */
+
+.part_1 {
+  width: 100%;
+  background-image: url("./img/part_1_fon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.part_1__content,
+.part_1__content_2 {
+  margin-top: 40px;
+  margin-left: 40%;
+}
+
+.part_1__text1 {
+  max-width: 940px;
+  font-family: STIX Two Text;
+  font-size: 36px;
+  font-style: italic;
+  color: #3333cc;
+}
+
+.part_1__text2 {
+  margin-top: 70px;
+  max-width: 940px;
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.part_1__text3,
+.part_1__text4 {
+  margin-top: 45px;
+  max-width: 940px;
+  font-family: roboto;
+  font-size: 24px;
+}
+
+.btn_part1 {
+  margin-top: 100px;
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+/*                          Адаптив                      */
+
+@media screen and (max-width: 1250px) {
+  .part_1 {
+    background-size: 120%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    background-size: 200%;
+  }
+  .header_text h1 {
+    margin-top: 50px;
+    font-size: 50px;
+  }
+  .logo {
+    padding-top: 50px;
+  }
+
+  .part_1__content_2 {
+    margin: 0px 40px;
+  }
+  .btn_part1 {
+    margin-right: 235px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  header {
+    background-size: 220%;
+  }
+  .btn_part1 {
+    margin-right: 220px;
+  }
+  .part_1__content {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .img_logo {
+    width: 50%;
+  }
+  .header_text h1 {
+    font-size: 40px;
+  }
+  .falh {
+    padding-bottom: 115px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding-left: 128px;
+  }
+  .header_btn {
+    margin-top: 25px;
+  }
+  .btn_part1 {
+    margin-right: 149px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .falh {
+    padding-bottom: 45px;
+  }
+  .part_1__text1 {
+    font-size: 28px;
+  }
+  .part_1__text2,
+  .part_1__text3,
+  .part_1__text4 {
+    margin-top: 45px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header_text h1 {
+    font-size: 30px;
+  }
+  .img_logo {
+    width: 40%;
+  }
+  .header_text p {
+    margin-top: 18px;
+    font-size: 18px;
+  }
+  .falh {
+    padding-bottom: 91px;
+  }
+  .header__link {
+    padding: 14px 31px;
+    font-size: 18px;
+  }
+  .btn_part1 {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .logo {
+    padding-top: 10px;
+  }
+  .header_text h1 {
+    margin-top: 30px;
+  }
+  .part_1__text1 {
+    font-size: 24px;
+  }
+  .btn_part1 {
+    margin-right: 127px;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .header {
+    padding-left: 116px;
+  }
+  .falh {
+    padding-bottom: 30px;
+  }
+  .part_1__text1 {
+    font-size: 20px;
+  }
+  .part_1__text2,
+  .part_1__text3,
+  .part_1__text4 {
+    font-size: 18px;
+  }
+  .btn_part1 {
+    margin-right: 98px;
+  }
+}
