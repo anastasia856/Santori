@@ -247,3 +247,22 @@ header {
     margin-right: 98px;
   }
 }
+
+
+
+/*       Part-3       */
+
+.part-3 {
+  width: 100%;
+  margin-top: 270px;
+}
+
+.description {
+  background-image: url(img/SANTORI_small.png);
+  background-repeat: no-repeat;
+}
+.description__text-box {
+  max-width: 950px;
+  margin-left: 33%;
+}
+
