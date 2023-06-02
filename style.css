@@ -302,10 +302,9 @@ header {
 }
 
 .audience {
+  max-width: 1080px;
   padding-top: 335px;
-  background-image: url(/img/part-4_img.png);
-  background-repeat: no-repeat;
-  background-position: right center;
+  padding-bottom: 200px;
 }
 
 
@@ -316,7 +315,7 @@ header {
   font-weight: lighter;
   line-height: 1.2;
   color: #3333cc;
-/* padding-bottom: 20px; */
+  padding-bottom: 45px;
 }
 
 .audience__list {
@@ -325,7 +324,15 @@ header {
   color: rgb(51, 51, 51);
   line-height: 1.5;
   font-weight: 200;
+  list-style: none;
+  
+}
 
-  padding: 21px 0;
+.audience__item {
+  background-image: url(/img/check-mark.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 18px 0;
+  padding-left: 40px;
 }
 
