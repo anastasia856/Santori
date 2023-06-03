@@ -286,10 +286,6 @@ header {
   padding: 21px 0;
 }
 
-.description__text_bold {
-  font-weight:700;
-}
-
 
 /*       Part-4       */
 .part-4 {
@@ -304,11 +300,11 @@ header {
 .audience {
   max-width: 1080px;
   padding-top: 335px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 
-.audience__title {
+.audience__title, .profile__heading {
   font-size: 60px;
   /* font-family: "STIX Two Text"; */
   font-style: italic;
@@ -318,7 +314,7 @@ header {
   padding-bottom: 45px;
 }
 
-.audience__list {
+.audience__list, .profile__text {
   font-size: 24px;
   font-family: "Roboto";
   color: rgb(51, 51, 51);
@@ -329,10 +325,64 @@ header {
 }
 
 .audience__item {
-  background-image: url(/img/check-mark.png);
+  background-image: url(img/check-mark.png);
   background-repeat: no-repeat;
   background-position: left center;
   padding: 18px 0;
   padding-left: 40px;
 }
 
+.description__text_bold, .profile__text_bold {
+  font-weight:700;
+}
+
+
+/*       Part-5       */
+.part-5 {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/part-5_fon.png);
+  background-repeat: no-repeat;
+  /* margin-top: 40px; */
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: flex-end;
+  /* position:relative; */
+}
+/* 
+.profile__image {
+  position: absolute;
+  bottom: 0;
+} */
+
+.profile__text-box {
+  max-width: 760px;
+  /* height: 940px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 190px;
+  margin-top: 220px;
+}
+
+.profile__text {
+  padding: 17px 0;
+}
+
+.profile__quote {
+  font-size: 36px;
+  /* font-family: "STIX Two Text"; */
+  color: rgb(51, 51, 51);
+  font-style: italic;
+  line-height: 1.2;
+  text-indent: -9.094px;
+  padding-top: 78px;
+}
+
+.profile__image {
+  margin-bottom: 100px;
+}
