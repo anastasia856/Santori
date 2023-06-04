@@ -269,7 +269,7 @@ header {
 
 .description__title {
   font-size: 36px;
-  /* font-family: "STIX Two Text"; */
+  font-family: "STIX Two Text";
   font-style: italic;
   line-height: 1.2;
   color: #3333cc;
@@ -308,7 +308,7 @@ header {
 
 .audience__title, .profile__heading {
   font-size: 60px;
-  /* font-family: "STIX Two Text"; */
+  font-family: "STIX Two Text";
   font-style: italic;
   font-weight: lighter;
   line-height: 1.2;
@@ -370,7 +370,7 @@ header {
 
 .profile__quote {
   font-size: 36px;
-  /* font-family: "STIX Two Text"; */
+  font-family: "STIX Two Text";
   color: rgb(51, 51, 51);
   font-style: italic;
   line-height: 1.2;
@@ -478,6 +478,9 @@ header {
 }
 
 @media screen and (max-width: 550px) {
+  .part-3 {
+    margin-top: 150px;
+  }
   .description__title {
     font-size: 32px;
     padding-bottom: 15px;
@@ -486,6 +489,10 @@ header {
   .description__text, .profile__text {
     font-size: 20px;
     padding: 15px 0;
+  }
+
+  .audience__title, .profile__heading {
+    font-size: 32px;
   }
 
   .audience__list {
@@ -504,5 +511,25 @@ header {
   .profile__text-box {
     margin-bottom: 120px;
   }
+}
 
+@media screen and (max-width: 377px) {
+  .description__title, .audience__title, .profile__heading {
+    font-size: 22px;
+  }
+
+  .description__text, .profile__text, .audience__list {
+    font-size: 18px;
+  }
+  
+}
+
+@media screen and (max-width: 440px) {
+  .profile__image {
+    width: 70%;
+  }
+
+  .profile__quote {
+    font-size: 18px;
+  }
 }
