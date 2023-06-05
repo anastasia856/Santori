@@ -137,7 +137,7 @@ header {
   padding-bottom: 20px;
 }
 
-.description__text {
+.description__text, .info__text {
   font-size: 24px;
   font-family: "Roboto";
   color: rgb(51, 51, 51);
@@ -175,7 +175,8 @@ header {
 }
 
 .audience__list,
-.profile__text {
+.profile__text,
+.info__list {
   font-size: 24px;
   font-family: "Roboto";
   color: rgb(51, 51, 51);
@@ -193,14 +194,15 @@ header {
 }
 
 .description__text_bold,
-.profile__text_bold {
+.profile__text_bold,
+.info__text_bold {
   font-weight: 700;
 }
 
 /*       Part-5       */
 .part-5 {
   width: 100%;
-  background-image: url(img/part-5_fon.png);
+  background-image: url(img/part-5_fon2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -238,6 +240,38 @@ header {
 .profile__image {
   margin-bottom: 80px;
 }
+
+/*       info       */
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-bottom: 54px;
+}
+
+.info__text-box {
+  max-width: 670px;
+}
+
+.info__heading {
+  color: #3333cc;
+  font-family: "STIX Two Text";
+  font-size: 63px;
+  line-height: 0.979;
+  font-weight: normal;
+}
+
+.info__item {
+  background-image: url(img/check-mark.png);
+  background-repeat: no-repeat;
+  background-position: left 10px;
+  margin: 18px 0;
+  padding-left: 40px;
+}
+
+
+
 
 /*                          Адаптив                      */
 @media screen and (max-width: 1680px) {
