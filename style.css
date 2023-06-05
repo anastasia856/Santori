@@ -248,8 +248,8 @@ header {
 .info {
   display: flex;
   justify-content: space-between;
-  padding-top: 170px;
-  padding-bottom: 95px;
+  margin: 170px 10px 95px 10px;
+  padding-bottom: 120px;
 }
 
 .info__text-box {
@@ -267,8 +267,8 @@ header {
 .info__item {
   background-image: url(img/check-mark.png);
   background-repeat: no-repeat;
-  background-position: left 10px;
-  margin: 18px 0;
+  background-position: left 25px;
+  padding: 18px 0;
   padding-left: 40px;
 }
 
@@ -346,7 +346,11 @@ header {
     font-size: 46px;
     padding-bottom: 20px;
   }
-  
+
+  .card__text {
+    font-size: 20px;
+  }
+
 }
 
 @media screen and (max-width: 1250px) {
@@ -371,7 +375,6 @@ header {
 
   .profile__image {
     margin-bottom: 10px;
-    width: 28%;
   }
 
   .profile__text-box {
@@ -384,8 +387,24 @@ header {
 
   .profile__quote {
     padding: 25px 0;
-    font-size: 30px;
+
   }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 0 0;
+  }
+
+  .info__text-box {
+    max-width: 990px;
+    margin: 0 10%;
+  }
+
+  .info__heading {
+    font-size: 46px;
+  }
+  
 }
 
 @media screen and (max-width: 800px) {
@@ -417,21 +436,35 @@ header {
     padding-bottom: 20px;
   }
 
-  .description__text-box {
-    margin: 0 40px;
-  }
-
-  .profile {
+  .description__text-box,
+  .profile,
+  .info__text-box {
     margin: 0 40px;
   }
 
   .profile__image {
-    width: 50%;
+    width: 70%;
+  }
+
+  .profile__text-box {
+    margin-bottom: 50px;
   }
 
   .profile__quote {
     font-size: 28px;
     text-align: center;
+  }
+
+  .info {
+    margin-top: 200px;
+  }
+
+  .info__heading {
+    font-size: 36px;
+  }
+
+  .card__btn {
+    margin-right: 0;
   }
 }
 
@@ -444,6 +477,10 @@ header {
   }
   .part_1__content {
     margin-right: 10px;
+  }
+
+  .card__btn {
+    margin-right: 0;
   }
 }
 
@@ -469,6 +506,26 @@ header {
   .btn_part1 {
     margin-right: 149px;
   }
+
+  .card__img {
+    margin: 40px 0;
+  }
+
+  .card__text-box {
+    padding: 0 50px;
+  }
+
+  .card__heading, .card__price {
+    font-size: 48px;
+  }
+
+  .card__price_sale {
+    font-size: 32px;
+  }
+
+  .card__btn {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -488,7 +545,7 @@ header {
   .part-3 {
     margin-top: 50px;
   }
-  .description__title {
+  .description__title{
     font-size: 32px;
     padding-bottom: 15px;
   }
@@ -498,25 +555,51 @@ header {
     padding: 15px 0;
   }
 
-  .audience__title, .profile__heading {
+  .audience__title, .profile__heading, .info__heading {
     font-size: 32px;
   }
 
-  .audience__list {
+  .audience__list, .info__text {
     font-size: 20px;
   }
 
-  .audience__item {
+  .audience__item, .info__item {
     padding-top: 15px;
     padding-bottom: 15px;
+  }
+
+  .info {
+    margin-top: 120px;
+  }
+
+  .info__item {
+    font-size: 20px;
+    background-position: left 20px;
   }
 
   .profile__quote {
     font-size: 22px;
   }
 
-  .profile__text-box {
-    margin-bottom: 120px;
+  .card {
+    margin-top: 80px;
+  }
+
+  .card__heading {
+    font-size: 42px;
+    padding-bottom: 25px;
+  }
+
+  .card__text {
+    font-size: 18px;
+  }
+
+  .card__price_sale {
+    margin-top: 45px;
+  }
+
+  .card__btn {
+    margin: 55px 0 75px 0;
   }
 }
 
@@ -541,7 +624,30 @@ header {
   .btn_part1 {
     margin-top: 50px;
   }
+
+  .description {
+    margin-top: 150px;
+  }
+
+  .card {
+    margin-top: 20px;
+  }
+
+  .card__text-box {
+    padding: 0 25px;
+  }
 }
+
+@media screen and (max-width: 440px) {
+  .profile__image {
+    width: 90%;
+  }
+
+  .profile__quote {
+    font-size: 18px;
+  }
+}
+
 
 @media screen and (max-width: 427px) {
   .logo {
@@ -555,6 +661,31 @@ header {
   }
   .btn_part1 {
     margin-right: 127px;
+  }
+
+  .description__title, .audience__title, .profile__heading, .info__heading {
+    font-size: 24px;
+  }
+
+  .audience__item, .info__item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .profile__text-box {
+    margin-bottom: 10px;
+  }
+
+  .card__heading {
+    font-size: 32px;
+  }
+
+  .card__text {
+    font-size: 16px;
+  }
+
+  .card__btn {
+    margin-right: 0;
   }
 }
 
@@ -577,22 +708,28 @@ header {
     margin-right: 98px;
   }
 
-  .description__title, .audience__title, .profile__heading {
-    font-size: 22px;
+  .description__title, .audience__title, .profile__heading, .info__heading {
+    font-size: 24px;
   }
 
-  .description__text, .profile__text, .audience__list {
+  .description__text, .profile__text, .audience__list, .info__text, .info__item {
     font-size: 18px;
   }
+
+  .audience, .profile, .info__text-box {
+    margin: 0 20px;
+  }
+
+  .card__btn {
+    margin-right: 0;
+  }
+
+  .profile__text-box {
+    margin-bottom: 50px;
+  }
+
+  /* .info {
+    margin-top: 50px;
+  } */
   
-}
-
-@media screen and (max-width: 440px) {
-  .profile__image {
-    width: 70%;
-  }
-
-  .profile__quote {
-    font-size: 18px;
-  }
 }
