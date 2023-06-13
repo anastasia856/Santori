@@ -47,7 +47,6 @@ header {
   color: #fff;
   border-radius: 10px;
   background: linear-gradient(left top, #9933cc, #3333cc);
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(#9933cc), to(#3333cc));
   background: -webkit-linear-gradient(left top, #9933cc, #3333cc);
   background: -moz-linear-gradient(left top, #9933cc, #3333cc);
   background: -o-linear-gradient(left top, #9933cc, #3333cc);
@@ -205,7 +204,6 @@ header {
   color: #fff;
   border-radius: 10px;
   background: linear-gradient(left top, #9933cc, #3333cc);
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(#9933cc), to(#3333cc));
   background: -webkit-linear-gradient(left top, #9933cc, #3333cc);
   background: -moz-linear-gradient(left top, #9933cc, #3333cc);
   background: -o-linear-gradient(left top, #9933cc, #3333cc);
@@ -465,7 +463,6 @@ form input {
   color: #fff;
   border-radius: 10px;
   background: linear-gradient(left top, #9933cc, #3333cc);
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(#9933cc), to(#3333cc));
   background: -webkit-linear-gradient(left top, #9933cc, #3333cc);
   background: -moz-linear-gradient(left top, #9933cc, #3333cc);
   background: -o-linear-gradient(left top, #9933cc, #3333cc);
