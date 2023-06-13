@@ -104,11 +104,114 @@ header {
   font-size: 24px;
 }
 
+.part_1__text4 {
+  padding-bottom: 50px;
+}
+
 .btn_part1 {
   margin-top: 100px;
   float: right;
   margin-right: 100px;
   margin-bottom: 50px;
+}
+
+/* Part-2 */
+
+.part_2 {
+  background-image: url(./img/smart_object_fon\3png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 144px;
+}
+
+.smart_content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 220px;
+  padding-top: 200px;
+}
+
+.smart_object {
+  width: 260px;
+  height: 240px;
+  text-align: center;
+}
+
+.smart_object_title {
+  font-family: STIX Two Text;
+  font-size: 36px;
+  color: #504fd1;
+  padding-top: 20px;
+}
+
+.smart_object_text {
+  width: 258px;
+  padding-top: 10px;
+  font-family: Roboto, medium;
+  font-size: 30px;
+}
+
+.smart_object_img {
+  width: 122px;
+  height: 88px;
+  background: linear-gradient(left top, #9933cc, #3333cc);
+  color: #3333cc;
+}
+
+.workshop {
+  margin-top: 164px;
+}
+
+.workshop_title {
+  font-family: STIX Two Text;
+  font-style: italic;
+  font-size: 60px;
+  color: #3333cc;
+  margin-bottom: 68px;
+  padding-left: 180px;
+}
+
+.workshop_content_item {
+  color: #3333cc;
+  font-family: STIX Two Text;
+  font-style: italic;
+  font-size: 36px;
+  margin-left: 160px;
+  max-width: 900px;
+}
+
+.workshop_content_item_text {
+  font-family: Roboto Light;
+  font-style: normal;
+  font-size: 24px;
+  padding-top: 40px;
+  color: #484848;
+  padding-left: 18px;
+}
+
+.workshop_btn {
+  margin-top: 88px;
+  margin-left: 175px;
+}
+
+.workshop__link {
+  border: 0;
+  line-height: 2.5;
+  padding: 20px 60px;
+  font-family: STIX Two Text;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  background: linear-gradient(left top, #9933cc, #3333cc);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#9933cc), to(#3333cc));
+  background: -webkit-linear-gradient(left top, #9933cc, #3333cc);
+  background: -moz-linear-gradient(left top, #9933cc, #3333cc);
+  background: -o-linear-gradient(left top, #9933cc, #3333cc);
+  background: -ms-linear-gradient(left top, #9933cc, #3333cc);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#9933cc', endColorstr='#3333cc', GradientType=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#9933cc',endColorstr='#3333cc')";
 }
 
 /*       Part-3       */
@@ -137,7 +240,8 @@ header {
   padding-bottom: 20px;
 }
 
-.description__text, .info__text {
+.description__text,
+.info__text {
   font-size: 24px;
   font-family: "Roboto";
   color: rgb(51, 51, 51);
@@ -156,8 +260,6 @@ header {
 }
 
 .audience {
-  /* display: flex;
-  flex-direction: column; */
   max-width: 1080px;
   padding-top: 335px;
   padding-bottom: 150px;
@@ -165,7 +267,8 @@ header {
 
 .audience__title,
 .profile__heading,
-.card__heading {
+.card__heading,
+.title_form {
   font-size: 60px;
   font-family: "STIX Two Text";
   font-style: italic;
@@ -207,6 +310,8 @@ header {
   background-image: url(img/part-5_fon2.png);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  z-index: 1;
 }
 
 .profile {
@@ -314,8 +419,92 @@ header {
   margin: 75px 0 115px 0;
 }
 
+/*                           Form                        */
 
+.form {
+  background-image: url("./img/form_fon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+  z-index: 0;
+  margin-top: -700px;
+  padding-bottom: 200px;
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 700px;
+}
+
+form input {
+  width: 870px;
+  margin-top: 30px;
+  padding: 30px 40px;
+  font-style: italic;
+  font-family: roboto;
+  font-size: 24px;
+  color: #333333;
+  border: 0px solid #bdbdbd;
+  border-radius: 0.3rem;
+  box-shadow: 0px 0px 19.44px 4.56px rgba(0, 0, 0, 0.08);
+}
+
+.btn_form {
+  width: 430px;
+  border: 0;
+  margin: 55px 0px;
+  line-height: 2.5;
+  padding: 0px 50px;
+  font-family: STIX Two Text;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  background: linear-gradient(left top, #9933cc, #3333cc);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#9933cc), to(#3333cc));
+  background: -webkit-linear-gradient(left top, #9933cc, #3333cc);
+  background: -moz-linear-gradient(left top, #9933cc, #3333cc);
+  background: -o-linear-gradient(left top, #9933cc, #3333cc);
+  background: -ms-linear-gradient(left top, #9933cc, #3333cc);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#9933cc', endColorstr='#3333cc', GradientType=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#9933cc',endColorstr='#3333cc')";
+}
+
+.form_text {
+  max-width: 520px;
+  font-style: italic;
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 240px;
+}
+
+/*                           Footer                      */
+
+.footer_img {
+  max-width: 285px;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 130px;
+}
+
+.footer_list {
+  list-style: none;
+  font-family: roboto;
+  font-size: 22px;
+  font-weight: 100;
+}
 
 /*                          Адаптив                      */
 @media screen and (max-width: 1680px) {
@@ -332,9 +521,19 @@ header {
   }
 }
 
+@media (min-width: 1650px) and (max-width: 2050px) {
+  .part_1 {
+    width: 90%;
+  }
+
+  .part_1__text4 {
+    padding-bottom: 150px;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .part-4 {
-  background-image: url(img/part-4_fon2.png);
+    background-image: url(img/part-4_fon2.png);
   }
 
   .audience {
@@ -342,7 +541,8 @@ header {
     padding: 120px 0;
   }
 
-  .audience__title, .profile__heading {
+  .audience__title,
+  .profile__heading {
     font-size: 46px;
     padding-bottom: 20px;
   }
@@ -350,7 +550,6 @@ header {
   .card__text {
     font-size: 20px;
   }
-
 }
 
 @media screen and (max-width: 1250px) {
@@ -381,13 +580,14 @@ header {
     margin-top: 10px;
   }
 
-  .profile__heading, .profile__text, .profile__quote  {
+  .profile__heading,
+  .profile__text,
+  .profile__quote {
     text-align: center;
   }
 
   .profile__quote {
     padding: 25px 0;
-
   }
 
   .info {
@@ -404,7 +604,37 @@ header {
   .info__heading {
     font-size: 46px;
   }
-  
+
+  .footer_content {
+    flex-direction: column;
+  }
+
+  .footer_text_1,
+  .footer_text_2,
+  .footer_img {
+    margin-top: 25px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  form input {
+    width: 700px;
+  }
+
+  .title_form {
+    padding-top: 50px;
+  }
+
+  .smart_content {
+    flex-wrap: wrap;
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+
+  .smart_object {
+    padding-top: 73px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -426,12 +656,25 @@ header {
     margin-right: 235px;
   }
 
+  .part_2 {
+    background-size: 120%;
+  }
+
+  .smart_content {
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+
+  .smart_object {
+    margin-top: 80px;
+  }
   .audience {
     margin: 0 40px;
     padding: 80px 0;
   }
 
-  .audience__title, .profile__heading {
+  .audience__title,
+  .profile__heading {
     font-size: 36px;
     padding-bottom: 20px;
   }
@@ -466,6 +709,16 @@ header {
   .card__btn {
     margin-right: 0;
   }
+
+  form input {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .smart_object {
+    margin-top: 0px;
+  }
 }
 
 @media screen and (max-width: 710px) {
@@ -482,6 +735,20 @@ header {
   .card__btn {
     margin-right: 0;
   }
+
+  form input {
+    width: 500px;
+  }
+
+  .workshop_content_item_text {
+    padding-left: 10px;
+  }
+  .workshop_title {
+    font-size: 52px;
+  }
+  .workshop_content_item {
+    margin-left: 81px;
+  }
 }
 
 @media screen and (max-width: 685px) {
@@ -493,6 +760,26 @@ header {
   }
   .falh {
     padding-bottom: 115px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  form input {
+    width: 400px;
+  }
+
+  .btn_form {
+    width: 400px;
+    border: 0;
+    padding: 0px 37px;
+  }
+
+  .title_form {
+    font-size: 48px;
+  }
+
+  .workshop_title {
+    padding-left: 126px;
   }
 }
 
@@ -515,7 +802,8 @@ header {
     padding: 0 50px;
   }
 
-  .card__heading, .card__price {
+  .card__heading,
+  .card__price {
     font-size: 48px;
   }
 
@@ -542,28 +830,37 @@ header {
     font-size: 20px;
   }
 
+  .workshop_title {
+    padding-left: 91px;
+  }
+
   .part-3 {
     margin-top: 50px;
   }
-  .description__title{
+  .description__title {
     font-size: 32px;
     padding-bottom: 15px;
   }
-  
-  .description__text, .profile__text {
+
+  .description__text,
+  .profile__text {
     font-size: 20px;
     padding: 15px 0;
   }
 
-  .audience__title, .profile__heading, .info__heading {
+  .audience__title,
+  .profile__heading,
+  .info__heading {
     font-size: 32px;
   }
 
-  .audience__list, .info__text {
+  .audience__list,
+  .info__text {
     font-size: 20px;
   }
 
-  .audience__item, .info__item {
+  .audience__item,
+  .info__item {
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -601,6 +898,10 @@ header {
   .card__btn {
     margin: 55px 0 75px 0;
   }
+
+  /* .profile__text-box {
+    margin-bottom: 120px;
+  } */
 }
 
 @media screen and (max-width: 500px) {
@@ -625,6 +926,19 @@ header {
     margin-top: 50px;
   }
 
+  .workshop_title {
+    font-size: 44px;
+  }
+
+  .workshop_btn {
+    margin-left: 112px;
+  }
+
+  .workshop__link {
+    padding: 14px 35px;
+    font-size: 18px;
+  }
+
   .description {
     margin-top: 150px;
   }
@@ -635,6 +949,19 @@ header {
 
   .card__text-box {
     padding: 0 25px;
+  }
+
+  form input {
+    width: 300px;
+  }
+
+  .btn_form {
+    width: 300px;
+    font-size: 16px;
+  }
+
+  .title_form {
+    font-size: 38px;
   }
 }
 
@@ -647,7 +974,6 @@ header {
     font-size: 18px;
   }
 }
-
 
 @media screen and (max-width: 427px) {
   .logo {
@@ -663,11 +989,15 @@ header {
     margin-right: 127px;
   }
 
-  .description__title, .audience__title, .profile__heading, .info__heading {
+  .description__title,
+  .audience__title,
+  .profile__heading,
+  .info__heading {
     font-size: 24px;
   }
 
-  .audience__item, .info__item {
+  .audience__item,
+  .info__item {
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -686,6 +1016,21 @@ header {
 
   .card__btn {
     margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  form input {
+    width: 250px;
+  }
+
+  .btn_form {
+    width: 250px;
+    padding: 0px 20px;
+  }
+
+  .title_form {
+    font-size: 28px;
   }
 }
 
@@ -708,15 +1053,49 @@ header {
     margin-right: 98px;
   }
 
-  .description__title, .audience__title, .profile__heading, .info__heading {
-    font-size: 24px;
+  .smart_content {
+    padding-top: inherit;
   }
 
-  .description__text, .profile__text, .audience__list, .info__text, .info__item {
+  .workshop {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .workshop_title {
+    font-size: 36px;
+    text-align: center;
+    padding-right: 30px;
+  }
+
+  .workshop__link {
+    padding: 14px 31px;
     font-size: 18px;
   }
 
-  .audience, .profile, .info__text-box {
+  .workshop_content {
+    margin-right: 50px;
+  }
+
+  .description__title,
+  .audience__title,
+  .profile__heading,
+  .info__heading {
+    font-size: 24px;
+  }
+
+  .description__text,
+  .profile__text,
+  .audience__list,
+  .info__text,
+  .info__item {
+    font-size: 18px;
+  }
+
+  .audience,
+  .profile,
+  .info__text-box {
     margin: 0 20px;
   }
 
@@ -727,9 +1106,69 @@ header {
   .profile__text-box {
     margin-bottom: 50px;
   }
-
-  /* .info {
-    margin-top: 50px;
-  } */
-  
 }
+
+@media screen and (max-width: 320px){
+  .header_text h1 {
+      margin-top: 20px;
+      font-size: 24px;
+      }
+      
+      .header_text p {
+      font-size: 14px;
+      margin-top: -14px;
+      }
+      
+      .header {
+      padding-left: 97px;
+    }
+      
+      .header_btn {
+      margin-top: 25px;
+    }
+      
+      .part_1__content {
+      margin-left: 40%;
+      }
+      
+      .part_1__content_2 {
+      margin: 30px 10px;
+    }
+      
+      .btn_part1 {
+      margin-right: 55px;
+    margin-top: -15px;
+      }
+      
+      .part_2 {
+      margin-top: 67px;
+    }
+      
+      .workshop_title {
+      font-size: 32px;
+      padding-left: 73px;
+      padding-right: 14px;
+      margin-bottom:20px;
+    }
+      
+      .workshop {
+      margin-top: 107px;
+    }
+      
+      .workshop_content {
+      margin-right: 38px;
+    }
+      
+     .workshop_content_item_text {
+      font-size: 20px;
+    }
+      
+      .workshop_btn {
+      margin-left: 53px;
+      margin-top: 53px;
+    }
+      
+      .card__price_margin {
+      padding-bottom: 30px;
+      }
+  }
