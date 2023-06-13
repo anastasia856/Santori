@@ -12,6 +12,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <header>
@@ -24,7 +26,7 @@
           <p>Практикум 13-14 мая онлайн<br />с 10:00 до 14:00 МСК</p>
         </div>
         <div class="header_btn">
-          <a href="#form" class="header__link">ЗАПИСАТЬСЯ</a>
+          <a href="#forma" class="header__link">ЗАПИСАТЬСЯ</a>
         </div>
         <div class="falh"></div>
       </div>
@@ -60,7 +62,7 @@
             </p>
           </div>
           <div class="btn_part1">
-            <a href="#form" class="header__link">ЗАПИСАТЬСЯ</a>
+            <a href="#forma" class="header__link">ЗАПИСАТЬСЯ</a>
           </div>
         </div>
       </section>
@@ -157,7 +159,7 @@
 
           <div class="workshop_btn">
             <div class="btn_part_2">
-              <a href="#form" class="workshop__link">ЗАПИСАТЬСЯ</a>
+              <a href="#forma" class="workshop__link">ЗАПИСАТЬСЯ</a>
             </div>
           </div>
         </div>
@@ -280,7 +282,7 @@
                 <p class="card__price card__price_margin">9 000 руб.</p>
               </div>
               <div class="card__btn btn_part1">
-                <a href="#form" class="header__link">ЗАПИСАТЬСЯ</a>
+                <a href="#forma" class="header__link">ЗАПИСАТЬСЯ</a>
               </div>
             </div>
           </div>
@@ -290,7 +292,7 @@
         <div class="container">
           <form action="/send.php" method="post" name="form_santory">
             <p><a name="form"></a></p>
-            <h2 class="title_form">Записаться и оплатить</h2>
+            <h2 id="forma" class="title_form">Записаться и оплатить</h2>
             <input type="text" name="name" placeholder="Имя" />
             <input type="tel" name="tel" placeholder="Номер телефона" />
             <input type="email" name="email" placeholder="Электронная почта" />
